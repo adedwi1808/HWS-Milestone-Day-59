@@ -13,6 +13,10 @@
 		AD37F69A2B75D062008B42BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD37F6982B75D062008B42BF /* Main.storyboard */; };
 		AD37F69C2B75D064008B42BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD37F69B2B75D064008B42BF /* Assets.xcassets */; };
 		AD37F69F2B75D064008B42BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD37F69D2B75D064008B42BF /* LaunchScreen.storyboard */; };
+		AD37F6A82B75D214008B42BF /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37F6A72B75D214008B42BF /* Country.swift */; };
+		AD37F6AD2B75D4AD008B42BF /* CountryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37F6AB2B75D4AD008B42BF /* CountryTVC.swift */; };
+		AD37F6AE2B75D4AD008B42BF /* CountryTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD37F6AC2B75D4AD008B42BF /* CountryTVC.xib */; };
+		AD37F6B42B75D8AD008B42BF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD37F6B32B75D8AD008B42BF /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AD37F69B2B75D064008B42BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD37F69E2B75D064008B42BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD37F6A02B75D064008B42BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD37F6A72B75D214008B42BF /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		AD37F6AB2B75D4AD008B42BF /* CountryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTVC.swift; sourceTree = "<group>"; };
+		AD37F6AC2B75D4AD008B42BF /* CountryTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryTVC.xib; sourceTree = "<group>"; };
+		AD37F6B32B75D8AD008B42BF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +64,11 @@
 		AD37F6912B75D062008B42BF /* HWS-Milestone-Day-59 */ = {
 			isa = PBXGroup;
 			children = (
+				AD37F6AA2B75D499008B42BF /* Cell */,
+				AD37F6A62B75D201008B42BF /* Model */,
 				AD37F6922B75D062008B42BF /* AppDelegate.swift */,
 				AD37F6942B75D062008B42BF /* SceneDelegate.swift */,
+				AD37F6B32B75D8AD008B42BF /* DetailViewController.swift */,
 				AD37F6962B75D062008B42BF /* ViewController.swift */,
 				AD37F6982B75D062008B42BF /* Main.storyboard */,
 				AD37F69B2B75D064008B42BF /* Assets.xcassets */,
@@ -65,6 +76,23 @@
 				AD37F6A02B75D064008B42BF /* Info.plist */,
 			);
 			path = "HWS-Milestone-Day-59";
+			sourceTree = "<group>";
+		};
+		AD37F6A62B75D201008B42BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD37F6A72B75D214008B42BF /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD37F6AA2B75D499008B42BF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AD37F6AB2B75D4AD008B42BF /* CountryTVC.swift */,
+				AD37F6AC2B75D4AD008B42BF /* CountryTVC.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD37F6AE2B75D4AD008B42BF /* CountryTVC.xib in Resources */,
 				AD37F69F2B75D064008B42BF /* LaunchScreen.storyboard in Resources */,
 				AD37F69C2B75D064008B42BF /* Assets.xcassets in Resources */,
 				AD37F69A2B75D062008B42BF /* Main.storyboard in Resources */,
@@ -138,7 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD37F6A82B75D214008B42BF /* Country.swift in Sources */,
+				AD37F6AD2B75D4AD008B42BF /* CountryTVC.swift in Sources */,
 				AD37F6972B75D062008B42BF /* ViewController.swift in Sources */,
+				AD37F6B42B75D8AD008B42BF /* DetailViewController.swift in Sources */,
 				AD37F6932B75D062008B42BF /* AppDelegate.swift in Sources */,
 				AD37F6952B75D062008B42BF /* SceneDelegate.swift in Sources */,
 			);
